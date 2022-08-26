@@ -1,0 +1,7 @@
+print ("*-*-"* 20)
+print("\033[4;30;46;m ALUGUEL DE CARROS \033[m")
+print ("*-*-"* 20)
+d = int(input("Quantos dias alugados: "))
+k = float(input("Quantos kilõmetros rodados: "))
+t = (d*60+k*0.15)
+print(f"O valor a ser pago pelo aluguel do carro é de {t:.2F} R$")
